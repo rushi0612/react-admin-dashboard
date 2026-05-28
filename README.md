@@ -1,70 +1,113 @@
-# Getting Started with Create React App
+# React Admin Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fully featured **Admin Dashboard** built with React.js, Tailwind CSS, and Syncfusion UI components. Includes multiple pages, interactive charts, data tables, dark/light mode, and theme customization.
 
-## Available Scripts
+## 🔗 Live Demo
 
-In the project directory, you can run:
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 📊 **Ecommerce Dashboard** — earnings overview, revenue stats, sparkline charts
+- 📦 **Orders & Customers** — data tables with product and customer info
+- 👥 **Employees** — employee management table
+- 📋 **Kanban Board** — drag and drop task management
+- 📅 **Calendar** — interactive calendar with events
+- 🎨 **Theme Settings** — 5 color themes + Dark/Light mode toggle
+- 📈 **Charts** — Line, Area, Bar, Pie, Financial, Stacked, Pyramid, Color Mapping
+- ✏️ **Rich Text Editor** — built-in editor page
+- 🎨 **Color Picker** — interactive color picker tool
+- 📱 **Responsive Design** — works on desktop and mobile
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tech Stack
 
-### `npm run build`
+| Tech | Usage |
+|------|-------|
+| React.js | UI components & routing |
+| Tailwind CSS | Styling & dark mode |
+| Syncfusion | Charts, Kanban, Calendar, Grid |
+| React Router v6 | Page navigation |
+| React Icons | Icon library |
+| Context API | Global state (theme, color, menu) |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
+- Node.js installed
+- npm
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+# Clone the repo
+git clone https://github.com/rushi0612/react-admin-dashboard.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Go into the folder
+cd react-admin-dashboard
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Install dependencies
+npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Start development server
+npm start
+```
 
-## Learn More
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📁 Project Structure
 
-### Code Splitting
+```
+react-admin-dashboard/
+├── src/
+│   ├── components/
+│   │   ├── Charts/          # Reusable chart components
+│   │   ├── Navbar.jsx
+│   │   ├── Sidebar.jsx
+│   │   ├── Header.jsx
+│   │   ├── ThemeSettings.jsx
+│   │   └── ...
+│   ├── pages/
+│   │   ├── Ecommerce.jsx    # Main dashboard
+│   │   ├── Orders.jsx
+│   │   ├── Employees.jsx
+│   │   ├── Customers.jsx
+│   │   ├── Kanban.jsx
+│   │   ├── Calendar.jsx
+│   │   ├── Charts/          # Chart pages
+│   │   └── ...
+│   ├── contexts/
+│   │   └── ContextProvider.js  # Global theme & state
+│   ├── data/
+│   │   └── dummy.js         # Mock data
+│   └── App.js
+└── package.json
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 📸 Pages Overview
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **/** — Ecommerce Dashboard (earnings, charts, recent transactions)
+- **/orders** — Orders data table
+- **/employees** — Employee management
+- **/customers** — Customer list
+- **/kanban** — Kanban task board
+- **/calendar** — Event calendar
+- **/editor** — Rich text editor
+- **/color-picker** — Color picker tool
+- **/line, /area, /bar, /pie** — Chart pages
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🙋‍♂️ Author
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Rushikesh Patil**
+- GitHub: [@rushi0612](https://github.com/rushi0612)
+- LinkedIn: [Rushikesh Patil](https://www.linkedin.com/in/rushi0612)
