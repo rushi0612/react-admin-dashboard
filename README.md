@@ -3,7 +3,7 @@
 A fully featured **Admin Dashboard** built with React.js, Tailwind CSS, and Syncfusion UI components. Includes multiple pages, interactive charts, data tables, dark/light mode, and theme customization.
 
 ## 🔗 Live Demo
-
+  https://react-admin-dashboard-git-main-rushikesh-s-project8.vercel.app/bar
 
 ---
 
